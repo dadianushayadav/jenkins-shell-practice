@@ -1,14 +1,19 @@
 #!/bin/bash
 
-echo "Build started"
+echo "=============================="
+echo "Jenkins Shell Script Practice"
+echo "=============================="
 
-echo "Checking server..."
+echo "Hostname:"
 hostname
 
-echo "Checking Java..."
-java -version
+echo "Current User:"
+whoami
 
-echo "Checking disk space..."
+echo "Current Date:"
+date
+
+echo "Disk Usage:"
 df -h
 
-echo "Build completed successfully"
+echo "Build completed successfully!"
